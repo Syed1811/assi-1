@@ -24,11 +24,12 @@ div {
   background-color: black;
   padding: 2%;
   margin: 10%;
+  border-radius: 12px;
   text-align: center;
 }
 
 img {
-  width: 80%;
+  width: 40%;
   border-radius: 10px;
 }
 

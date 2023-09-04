@@ -3,6 +3,7 @@ import "../index.css";
 
 const Home = () => {
   return (
+    <>
     <div>
       <h1>Captain America</h1>
       <h2>
@@ -40,9 +41,10 @@ const Home = () => {
         </tbody>
       </table>
       <hr />
-      <p><pre>Developed by <span className="highlight">Syed Raiyanullah</span> <br />Roll: <strong>2001331530178  </strong>
-      (AIML-C)</pre></p>
-    </div>
+      </div>
+      <pre style={{color: "red",fontSize:"20px"}}>Developed by <span className="highlight">Syed Raiyanullah</span> <br />Roll: <strong>2001331530178</strong>
+      (AIML-C)</pre>
+    </>
   );
 };
 
